@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+}
+
+#search-section {
+    height: 50vh;
+    background: url('https://www.shutterstock.com/image-photo/film-movie-background-clapperboard-reels-260nw-644371840.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+#search-section div input {
+    padding: 10px;
+    width: 400px;
+    border: none;
+    border-radius: 10px;
+    height: 50px;
+    font-size: larger;
+}
+
+#search-section div button {
+    padding: 10px;
+    width: 200px;
+    border: none;
+    border-radius: 10px;
+    background-color:grey;
+    color: black;
+    height: 50px;
+    font-size: larger;
+}
+
+button:hover{
+    transform: scale(1.1);
+}
+
+#photo-section {
+    background: rgb(243, 242, 242);
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+#photo-section div img {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#photo-section div {
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 2%;
+    padding: 22px;  
+}
+
+img:hover{
+    transform: scale(1.1);
+}
+
+#search-section div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+#search-section div input {
+    margin-bottom: 30px;
+}
+
+
+
+  
