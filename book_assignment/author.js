@@ -11,7 +11,7 @@ const submitForm = (event) => {
     const contact = document.getElementById('contact');
     newAuthor.name = name.value;
     newAuthor.email = email.value;
-    newAuthor.contact = contact.contact;
+    newAuthor.contact = contact.value;
 
     fetch(`${baseURL}/author`, {
         method: "POST",
