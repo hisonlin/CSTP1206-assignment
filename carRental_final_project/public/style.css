@@ -1,0 +1,12 @@
+ .welcome{
+    font-size: 3rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin-top: 2rem;
+    color: #0077B5;
+    text-shadow: 2px 2px #ccc;
+}
+body{
+    background-color: #a4a0a0;
+    margin-top: 50px;
+}
